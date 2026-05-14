@@ -1,0 +1,285 @@
+{
+  "entities": {
+    "equipments": {
+      "roteador": [
+        "roteador",
+        "router",
+        "modem",
+        "aparelho",
+        "equipamento"
+      ],
+      "onu": [
+        "onu",
+        "ont"
+      ],
+      "cto": [
+        "cto"
+      ],
+      "conector": [
+        "conector",
+        "ponta",
+        "ponteira",
+        "pino verde",
+        "apc",
+        "upc"
+      ],
+      "cabo": [
+        "cabo",
+        "fio",
+        "drop",
+        "cabo drop",
+        "fibra"
+      ],
+      "tv": [
+        "tv",
+        "televisão",
+        "televisao"
+      ],
+      "celular": [
+        "celular",
+        "telefone",
+        "smartphone"
+      ],
+      "iptv": [
+        "iptv",
+        "lista iptv"
+      ],
+      "tvbox": [
+        "tvbox",
+        "tv box"
+      ],
+      "dvr": [
+        "dvr"
+      ],
+      "cftv": [
+        "cftv",
+        "câmera",
+        "camera",
+        "cameras",
+        "câmeras"
+      ]
+    },
+    "brands": [
+      "ZTE",
+      "Mercusys",
+      "TP-Link",
+      "Huawei",
+      "Intelbras",
+      "FiberHome",
+      "Nokia",
+      "MikroTik"
+    ],
+    "models": [
+      "AX3000",
+      "H3601",
+      "H3601PE",
+      "EC220",
+      "F660",
+      "F670L",
+      "Archer C6"
+    ],
+    "apps": [
+      "YouTube",
+      "Netflix",
+      "IPTV",
+      "TVBox",
+      "Globoplay",
+      "Prime Video",
+      "WhatsApp"
+    ]
+  },
+  "verbs": {
+    "troquei": {
+      "conector": "SUBSTITUICAO_CONECTOR",
+      "roteador": "SUBSTITUICAO_ROTEADOR",
+      "onu": "SUBSTITUICAO_ONU",
+      "canal": "ALTERACAO_CANAL_WIFI",
+      "cabo": "TROCA_CABO"
+    },
+    "refiz": {
+      "conector": "SUBSTITUICAO_CONECTOR"
+    },
+    "subi": {
+      "cto": "INTERVENCAO_CTO"
+    },
+    "verifiquei": {
+      "sinal": "MEDICAO_SINAL",
+      "cto": "INTERVENCAO_CTO",
+      "dvr": "VERIFICACAO_CFTV"
+    },
+    "medi": {
+      "sinal": "MEDICAO_SINAL"
+    },
+    "configurei": {
+      "roteador": "RECONFIGURACAO",
+      "wifi": "RECONFIGURACAO"
+    }
+  },
+  "patterns": {
+    "problems": {
+      "SEM_CONEXAO": [
+        "sem internet",
+        "sem conexão",
+        "sem conexao",
+        "não navega",
+        "nao navega",
+        "internet caiu"
+      ],
+      "LENTIDAO": [
+        "lento",
+        "lentidão",
+        "lentidao",
+        "travando",
+        "travava",
+        "baixo desempenho",
+        "internet ruim"
+      ],
+      "INSTABILIDADE": [
+        "oscilando",
+        "instabilidade",
+        "caindo",
+        "queda",
+        "vai e volta"
+      ],
+      "SINAL_BAIXO": [
+        "sinal baixo",
+        "potência baixa",
+        "potencia baixa",
+        "sinal ruim"
+      ],
+      "LINK_LOSS": [
+        "link loss",
+        "los",
+        "sem sinal de fibra"
+      ],
+      "WIFI_RUIM": [
+        "wifi ruim",
+        "wifi fraco",
+        "pouco alcance"
+      ],
+      "FALHA_TERCEIRO": [
+        "iptv",
+        "tvbox",
+        "youtube travando",
+        "netflix travando"
+      ],
+      "PROBLEMA_LOCAL_DISPOSITIVO": [
+        "somente na tv",
+        "apenas na tv",
+        "no celular funciona"
+      ],
+      "CLIENTE_AUSENTE": [
+        "cliente ausente",
+        "ninguém em casa",
+        "nao atendeu",
+        "não atendeu"
+      ]
+    },
+    "actions": {
+      "ALTERACAO_CANAL_WIFI": [
+        "alterei canal",
+        "troquei canal",
+        "canal wifi"
+      ],
+      "SUBSTITUICAO_CONECTOR": [
+        "troquei conector",
+        "refiz conector",
+        "refiz ponta",
+        "troquei ponta"
+      ],
+      "SUBSTITUICAO_ROTEADOR": [
+        "troquei roteador",
+        "substitui roteador"
+      ],
+      "SUBSTITUICAO_ONU": [
+        "troquei onu",
+        "substitui onu"
+      ],
+      "MEDICAO_SINAL": [
+        "medição de sinal",
+        "medicao de sinal",
+        "verifiquei sinal",
+        "sinal -"
+      ],
+      "DIAGNOSTICO_COMPARATIVO": [
+        "testei no celular",
+        "no celular funciona",
+        "perguntei se travava"
+      ],
+      "ORIENTACAO_CLIENTE": [
+        "orientei",
+        "cliente ciente",
+        "expliquei"
+      ]
+    },
+    "results": {
+      "NORMALIZADO": [
+        "voltou",
+        "normalizou",
+        "funcionou",
+        "resolvido",
+        "ficou bom"
+      ],
+      "MELHORA_DESEMPENHO": [
+        "melhorou",
+        "ficou melhor"
+      ],
+      "INTERNET_OK": [
+        "internet normal",
+        "teste ok",
+        "funcionou normal"
+      ],
+      "PENDENTE": [
+        "pendente",
+        "continua",
+        "não resolveu",
+        "nao resolveu"
+      ]
+    }
+  },
+  "semantic_graph": {
+    "conector": [
+      "sinal",
+      "fibra",
+      "onu",
+      "internet"
+    ],
+    "cto": [
+      "fibra",
+      "sinal",
+      "conector",
+      "cliente"
+    ],
+    "onu": [
+      "sinal",
+      "roteador",
+      "internet"
+    ],
+    "roteador": [
+      "wifi",
+      "internet",
+      "cliente"
+    ],
+    "wifi": [
+      "canal",
+      "alcance",
+      "interferência",
+      "dispositivos"
+    ],
+    "iptv": [
+      "terceiro",
+      "tv",
+      "app",
+      "internet"
+    ],
+    "tv": [
+      "iptv",
+      "app",
+      "dispositivo"
+    ],
+    "celular": [
+      "teste comparativo",
+      "internet"
+    ]
+  }
+}

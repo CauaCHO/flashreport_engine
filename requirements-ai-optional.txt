@@ -1,0 +1,8 @@
+# Opcional para treinamento avançado
+torch
+transformers
+sentence-transformers
+spacy
+faiss-cpu
+onnx
+onnxruntime

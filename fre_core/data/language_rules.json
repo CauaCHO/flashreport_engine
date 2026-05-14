@@ -1,0 +1,36 @@
+{
+  "phrase_fixes": {
+    "qaundo": "quando",
+    "clienete": "cliente",
+    "travndo": "travando",
+    "sem net": "sem internet",
+    "sinal baxo": "sinal baixo",
+    "vorto a funciona": "voltou a funcionar",
+    "voutou a funciona": "voltou a funcionar",
+    "trocamo os canal": "alterei os canais",
+    "troquei os canal": "alterei os canais",
+    "yt": "YouTube",
+    "tv box": "TVBox"
+  },
+  "word_fixes": {
+    "intenet": "internet",
+    "trokei": "troquei",
+    "vorto": "voltou",
+    "voutou": "voltou",
+    "baxo": "baixo",
+    "melhoro": "melhorou",
+    "clienete": "cliente",
+    "travndo": "travando"
+  },
+  "normalization": {
+    "net": "internet",
+    "modem": "roteador",
+    "router": "roteador",
+    "ponta": "conector",
+    "ponteira": "conector",
+    "wi-fi": "wifi",
+    "wi fi": "wifi",
+    "tv box": "tvbox",
+    "canal da rede": "canal wifi"
+  }
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+fre_core.db
+.env
+models/*.joblib
+models/*.onnx

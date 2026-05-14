@@ -1,0 +1,9 @@
+{
+  "project": "FRE Semantic Core",
+  "version": "1.0-training-ready",
+  "domain": "ISP / Telecom / Relatórios Técnicos",
+  "use_ml_classifier": true,
+  "use_semantic_graph": true,
+  "fallback_report_enabled": true,
+  "confidence_threshold": 55
+}
